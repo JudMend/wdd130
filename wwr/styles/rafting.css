@@ -101,3 +101,7 @@ a > img{
     width: 30px;
     height: auto;
 }
+
+a{
+    text-decoration:none;
+}
