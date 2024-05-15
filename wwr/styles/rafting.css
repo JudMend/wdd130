@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Vast+Shadow&display=swap');
+
+/*  Variables  */
+:root {
+    --primary-color: #9DAD6F;
+    --secondary-color: #6E7DAB;
+    --accent1-color: #454955;
+    --accent2-color: #C3DFE0;
+
+    --heading-font: "Vast Shadow", serif;
+    --paragraph-font: "Open Sans", serif;
+    
+    --nav-background-color: gray;
+    --nav-link-color: skyblue;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: white;
+}
+
+/* General */
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: var(--primary-color)
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+p{
+    padding: 20px;
+    color: var(--accent1-color);
+}
+
+/* Header */
+
+header > img{
+    width: 160px;
+    height:auto;
+}
+
+/* Hero Banner */
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+}
+
+.hero h1{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+.hero article{
+    position:absolute;
+    top:20px;
+    margin: 70px 25px 25px 25px;
+    background-color: rgba(195,223,224,0.7)
+}
+
+.hero article > p{
+    clear:left;
+    text-align:justify;
+}
+
+.hero article > img{
+    width:140px;
+    height:auto;
+    margin: 20px 20px 20px 10px; 
+    border: 5px solid var(--accent2-color);
+    float:right;
+}
+
+/* History and Images Sections*/
+
+section {
+    border: 2px solid var(--accent1-color);
+    margin: 10px 0;
+    width:100%;
+}
+
+section > h2{
+    text-align:center;
+}
+
+section > img{
+    width: 140px;
+    height: auto;
+    margin: 0 20px;
+}
+
+/* Footer */
+a > img{
+    width: 30px;
+    height: auto;
+}
